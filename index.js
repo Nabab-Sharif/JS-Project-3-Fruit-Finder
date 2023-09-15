@@ -25,12 +25,13 @@ function showFruit(fruit) {
   name.className = 'name';
   name.innerText = fruit.name;
 
+
   const details = document.createElement('p');
   details.className = 'details';
   details.innerText = fruit.details;
 
   fruitDiv.append(img, name, details);
-  console.log(fruitDiv)
+
 
   document.querySelector('.fruits').append(fruitDiv);
 
